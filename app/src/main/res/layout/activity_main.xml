@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#202641"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/B-play"
+        android:onClick="GoToPlay"
+        android:layout_width="171dp"
+        android:layout_height="108dp"
+        android:background="#E91E63"
+        android:shadowColor="#00853D3D"
+        android:shadowDx="100"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:shadowDy="10"
+        android:layout_below="@+id/t1-Welcome"
+        android:text="Play!"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#DB6E93"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="352dp" />
+    <TextView
+        android:id="@+id/t1-Welcome"
+        android:layout_width="283dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="195dp"
+        android:gravity="center"
+        android:shadowColor="#FFFFFF"
+        android:text="Connect-4 "
+        android:textColor="#E91E63"
+        android:textColorHighlight="#151A6B"
+        android:textColorHint="#3F51B5"
+        android:layout_marginTop="120dp"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="111dp" />
+
+
+
+</RelativeLayout>
